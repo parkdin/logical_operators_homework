@@ -6,4 +6,15 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1 = a % 10
+    a = a //10
+    x2 = a % 10
+    a = a // 10
+    x3 = a % 10
+    a = a // 10
+    x4 = a % 10
+    a = a // 10
+    x5 = a % 10
+    return x5 > 0
+
+print(main(1234))
