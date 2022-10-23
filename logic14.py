@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1 = a % 10
+    x2 = a //10 
+    sum = x1 + x2
+    sum = sum % 2
+    return sum != 0
